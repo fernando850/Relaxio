@@ -29,7 +29,66 @@ Relaxio simulates a product showcase and purchase experience for a smart neck ma
 
 ## 📁 Project Structure
 
-<pre> ```text src/ │ App.js │ index.css │ index.js │ ├───components/ │ │ CallToAction.js │ │ Features.js │ │ Hero.js │ │ Home.js │ │ HowItWorks.js │ │ Login.js │ │ Navbar.js │ │ SupportSection.js │ │ │ ├───Footer/ │ │ │ Footer.js │ │ │ FooterAppAds.js │ │ │ FooterBottom.js │ │ │ FooterButtons.js │ │ │ LogoBottom.js │ │ │ ├───Orders/ │ │ │ Orders.js │ │ │ OrderStatus.js │ │ │ ├───Products/ │ │ │ FlashSale.js │ │ │ Products.js │ │ │ ProductShowcase.js │ │ │ └───Support/ │ │ CallSupport.js │ │ CustomerSupport.js │ │ Support.js │ │ VirtualAssistant.js │ │ │ ├───FAQ/ │ │ │ FAQ.js │ │ │ └───ReturnPolicy/ │ │ ReturnPolicy.js │ └───styles/ │ CallToAction.css │ Faq.css │ Features.css │ Footer.css │ Hero.css │ HowItWorks.css │ Login.css │ LogoBottom.css │ Navbar.css │ OrderStatus.css │ Products.css │ Support.css │ SupportSection.css │ VirtualAssistant.css ``` </pre>
+```text
+src/
+│   App.js
+│   index.css
+│   index.js
+│
+├───components/
+│   │   CallToAction.js
+│   │   Features.js
+│   │   Hero.js
+│   │   Home.js
+│   │   HowItWorks.js
+│   │   Login.js
+│   │   Navbar.js
+│   │   SupportSection.js
+│   │
+│   ├───Footer/
+│   │   │   Footer.js
+│   │   │   FooterAppAds.js
+│   │   │   FooterBottom.js
+│   │   │   FooterButtons.js
+│   │   │   LogoBottom.js
+│   │
+│   ├───Orders/
+│   │   │   Orders.js
+│   │   │   OrderStatus.js
+│   │
+│   ├───Products/
+│   │   │   FlashSale.js
+│   │   │   Products.js
+│   │   │   ProductShowcase.js
+│   │
+│   └───Support/
+│       │   CallSupport.js
+│       │   CustomerSupport.js
+│       │   Support.js
+│       │   VirtualAssistant.js
+│       │
+│       ├───FAQ/
+│       │   │   FAQ.js
+│       │
+│       └───ReturnPolicy/
+│           │   ReturnPolicy.js
+│
+└───styles/
+    │   CallToAction.css
+    │   Faq.css
+    │   Features.css
+    │   Footer.css
+    │   Hero.css
+    │   HowItWorks.css
+    │   Login.css
+    │   LogoBottom.css
+    │   Navbar.css
+    │   OrderStatus.css
+    │   Products.css
+    │   Support.css
+    │   SupportSection.css
+    │   VirtualAssistant.css
+
 
 ---
 
