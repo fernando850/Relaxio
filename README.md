@@ -1,70 +1,128 @@
-# Getting Started with Create React App
+# Relaxio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Relaxio** is a fictional landing page for a smart neck massager. Built as a front-end project using React and CSS, Relaxio is designed to promote a wellness product with a clean interface, intuitive navigation, and essential e-commerce features like product listings, support, and login pages.
 
-## Available Scripts
+![Relaxio Hero](https://mir-s3-cdn-cf.behance.net/project_modules/1400/c1171f168533079.64372862df39d.jpg)
 
-In the project directory, you can run:
+> ✨ Designed by [Tatianne Bragança](https://www.behance.net/gallery/168533079/Landing-Page-Relaxio)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 💡 Project Overview
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Relaxio simulates a product showcase and purchase experience for a smart neck massager. It features a welcoming home page, product highlights, customer support options, and more — making it a great base project for learning front-end routing and component-based design.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Features
 
-### `npm run build`
+- 🏠 **Home Page** with hero, features, how it works, and CTA
+- 🛍️ **Products Page** listing product cards
+- 📦 **Orders Page** placeholder
+- 🔐 **Login Page**
+- 💬 **Support Page** with:
+  - FAQ
+  - Return Policy
+- 🌐 **Client-side routing** with `react-router-dom`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📁 Project Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+src/
+│   App.js
+│   index.css
+│   index.js
+│
+├───components/
+│   │   CallToAction.js
+│   │   Features.js
+│   │   Hero.js
+│   │   Home.js
+│   │   HowItWorks.js
+│   │   Login.js
+│   │   Navbar.js
+│   │   SupportSection.js
+│   │
+│   ├───Footer/
+│   │   │   Footer.js
+│   │   │   FooterAppAds.js
+│   │   │   FooterBottom.js
+│   │   │   FooterButtons.js
+│   │   │   LogoBottom.js
+│   │
+│   ├───Orders/
+│   │   │   Orders.js
+│   │   │   OrderStatus.js
+│   │
+│   ├───Products/
+│   │   │   FlashSale.js
+│   │   │   Products.js
+│   │   │   ProductShowcase.js
+│   │
+│   └───Support/
+│       │   CallSupport.js
+│       │   CustomerSupport.js
+│       │   Support.js
+│       │   VirtualAssistant.js
+│       │
+│       ├───FAQ/
+│       │   │   FAQ.js
+│       │
+│       └───ReturnPolicy/
+│           │   ReturnPolicy.js
+│
+└───styles/
+    │   CallToAction.css
+    │   Faq.css
+    │   Features.css
+    │   Footer.css
+    │   Hero.css
+    │   HowItWorks.css
+    │   Login.css
+    │   LogoBottom.css
+    │   Navbar.css
+    │   OrderStatus.css
+    │   Products.css
+    │   Support.css
+    │   SupportSection.css
+    │   VirtualAssistant.css
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🛠️ Tech Stack
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **React**
+- **CSS**
+- **JSX**
+- **React Router**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🧪 Getting Started
 
-## Learn More
+To run this project locally:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+# Clone the repo
+git clone https://github.com/fernando850/Relaxio.git
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Navigate to the project folder
+cd Relaxio
 
-### Code Splitting
+# Install dependencies
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Start the development server
+npm start
+🌐 Deployment
+The app will be deployed on Netlify. Link coming soon.
 
-### Analyzing the Bundle Size
+🎨 Credits
+💻 Development by Fernando Martins
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+🖌️ Design by Tatianne Bragança
+Behance Project
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📄 License
+This project is for educational/demo purposes only and is not an actual product.
