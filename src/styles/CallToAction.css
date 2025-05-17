@@ -1,0 +1,16 @@
+.calltoaction{
+    background-color: #A7CBDB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+calltoaction h2{
+    text-align: center;
+}
+
+.btn{
+    margin-top:10px;
+}

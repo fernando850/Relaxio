@@ -1,0 +1,42 @@
+.hero{
+    padding:60px 20px;
+    display:flex;
+    justify-content: center;
+    width:100%;
+
+    /* Background Image stays behind everything */
+    background-image: url('../../public/Images/massagerWoman.png');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: contain;
+
+}
+
+ /* Flex container to position text content */
+ .hero-content{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-end;
+    width:100%;
+    gap:10px;
+ }
+
+ .hero-header{
+    margin:0;
+    text-align: left;;
+ }
+
+   /* Description paragraph */
+   .hero-paragraph {
+    line-height: 1.6;
+    margin: 0;
+    text-align: right;
+  }
+
+  @media (min-width:800px){
+
+
+    .hero{
+        padding:120px 20px;
+    }
+  }

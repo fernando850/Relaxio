@@ -1,0 +1,129 @@
+
+/* Wrap container */
+.colorF1F8FE{
+    background-color: #F1F8FE;
+}
+.customer-support {
+    padding: 1.5rem;
+    text-align: center;
+    max-width: 500px;          /* You can increase/decrease this */
+    margin: 0 auto;            /* Centers the container */
+    width: 100%;               /* Ensures full responsiveness */
+  }
+  
+  .customer-support h2 {
+    font-size: 1.25rem;
+    color: #002F70;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Grid itself */
+  .support-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* MOBILE: 2 columns */
+    gap: 16px;
+    width: 100%;
+  }
+  
+  /* DESKTOP: 3 columns */
+  @media (min-width: 800px) {
+    .support-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  /* Card: full width with max-width cap */
+  .support-card {
+    background-color: #A7CBDB;
+    border-radius: 16px;
+    width: 100%;
+    max-width: 140px;             /* Card won't stretch beyond this */
+    aspect-ratio: 1 / 1;          /* Keeps it square */
+    margin: 0 auto;               /* Centers individual card in column */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+   
+  }
+
+  
+  .support-card:hover {
+    background-color: #98defc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .support-card img {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+  }
+  
+  .support-card .label {
+    font-family: 'Baloo', sans-serif;
+    font-size: 12px;
+    color: #406F83;
+    margin: 8px 0 0;
+    font-weight: 500;
+  }
+
+  .call-support {
+    background-color: #7dbee0;  /* Light blue background */
+    color: #002F70;             /* Dark blue text */
+    padding: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+    font-family: 'Baloo 2', sans-serif;
+  }
+
+  .call-support h2{
+    text-align: center;
+  }
+
+  .call-support p{
+    
+    font-weight: 400;
+    line-height: 1.5;
+  }
+
+  .call-support h3{
+    margin-left: 10px;
+  }
+  
+  .return-policy {
+    background-color: white;  /* Light blue background */        /* Dark blue text */
+    font-family: 'Baloo 2', sans-serif;
+    padding: 20px;
+  }
+
+  .return-policy h1{
+    color:#002F70;
+    text-align:center;
+  }
+  
+  .return-policy p{
+    font-family: 'Archivo', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.8px;
+    color: black;
+  }
+
+  .return-policy h2{
+    text-align: left;
+    margin:10px;
+    
+  }
+
+  @media (min-width: 800px) {
+    .return-policy h2{
+      font-size: 22px;   }
+
+    .return-policy p{
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+  

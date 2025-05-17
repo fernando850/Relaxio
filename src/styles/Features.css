@@ -1,0 +1,171 @@
+.features-section {
+    background-color: #F1F1F1;
+    background-image: url('../../public/Images/Circle.png');
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    padding: 40px 20px;
+}
+
+.features-header p {
+    font-family: 'Archivo', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #406F83;
+    margin: 0;
+}
+
+.features-carousel {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+/* Correct arrows style */
+.arrow {
+    background: none;
+    border: none;
+    font-size: 30px;
+    color: #406F83;
+    cursor: pointer;
+}
+
+/* Scrollable area with hidden scrollbar */
+.features-cards {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 16px;
+    width: 100%;
+    padding: 0 10px;
+}
+
+/* Hide scrollbar nicely */
+.features-cards::-webkit-scrollbar {
+  display: none;
+}
+.features-cards {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+.feature-card {
+    flex: 0 0 auto;
+    width: 60px;
+    height: 70px;
+    border-radius: 16px;
+    background-color: #A7CBDB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: border 0.3s ease;
+}
+
+.feature-card:hover {
+    background-color: #98defc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Card icon */
+.feature-card img {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+/* Card text */
+.feature-card p {
+    font-family: 'Baloo', sans-serif;
+    font-size: 8px;
+    color: #406F83;
+    margin: 0;
+}
+
+/* Highlight active card */
+.feature-card.active {
+    border: 2px solid #406F83; /* Correct blue outline */
+}
+
+/* Image below */
+.feature-detail {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.feature-detail img {
+    max-width: 300px;
+    height: auto;
+}
+
+@media (min-width: 600px){
+
+/* Hide arrows on tablet and bigger */
+  .arrow {
+    display: none;
+  }
+
+
+    .features-cards {
+        overflow-x: hidden;
+        justify-content: center;
+    }
+
+    .feature-card {
+        width: 80px;
+        height: 90px;
+    }
+
+    .feature-card img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .feature-card p{
+        font-size: 12px;;
+    }
+
+    .features-header p{
+        font-size: 16px;
+    }
+
+    .features-header{
+        padding-bottom: 20px;
+    }
+
+    .feature-detail img {
+        max-width: 400px;
+    }
+}
+
+@media (min-width: 1000px){
+
+
+    .feature-card {
+        width: 120px;
+        height: 140px;
+    }
+
+    .feature-card img{
+        width: 60px;
+        height: 60px;
+    }
+
+    .feature-card p{
+        font-size: 16px;
+    }
+
+    .features-header p{
+        font-size: 20px;
+    }
+
+    .feature-detail img {
+        min-width: 400px;
+        max-width: 600px;
+    }
+
+
+
+}

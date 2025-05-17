@@ -1,0 +1,26 @@
+.main-bottom-toptext{
+    padding:10px;
+    background-color: #002F70;
+}
+
+.main-bottom-toptext h2{
+    color:white;
+    text-align: center;
+}
+
+.main-bottom-toptext p{
+    font-weight: 300;
+}
+
+.video{
+    padding:10px;
+    display: flex;
+    justify-content: center;
+}
+
+.video iframe {
+    width: 100%;
+    max-width: clamp(400px, 40vw, 1600px);
+    height: clamp(300px, 25vw, 900px);
+}
+

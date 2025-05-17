@@ -1,0 +1,59 @@
+.order-status-container {
+    background-color: #F1F8FE;
+    padding: 30px;
+    font-family: 'Baloo 2', cursive;
+    text-align: center;
+  }
+  
+  .breadcrumb {
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 20px;
+    font-weight: 300;
+    color: #002F70;
+  }
+  
+  .breadcrumb-current {
+    font-weight: bold;
+  }
+  
+  .order-title {
+    font-size: 20px;
+    color: #002F70;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  
+  .order-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .order-form label {
+    text-align: left;
+    font-size: 16px;
+    color: #002F70;
+  }
+  
+  .order-form input {
+    padding: 10px;
+    border: 2px solid #002F70;
+    border-radius: 20px;
+    outline: none;
+    font-size: 16px;
+  }
+
+  .shipButtonContainer {
+    display: flex;
+    justify-content: center;;
+  }
+
+  .shipButtonContainer button{
+    font-size: 14px;;
+  }
+
+
+  
