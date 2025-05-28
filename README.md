@@ -124,7 +124,6 @@ The app will be deployed on Netlify. Link coming soon.
 💻 Development by Fernando Martins
 
 🖌️ Design by Tatianne Bragança
-Behance Project
 
 📄 License
 This project is for educational/demo purposes only and is not an actual product.
