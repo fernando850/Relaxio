@@ -1,4 +1,3 @@
-import React from 'react';
 import '../../styles/VirtualAssistant.css';
 
 const VirtualAssistant = ({ onClose }) => {

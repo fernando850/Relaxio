@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
 import '../../styles/Products.css';
+import { useState } from 'react';
 
 const images = [
   '/Images/massager-front-view.png',

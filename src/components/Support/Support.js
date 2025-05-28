@@ -1,4 +1,3 @@
-import React from 'react';
 import Navbar from '../Navbar.js';
 import CustomerSupport from './CustomerSupport.js'; 
 import LogoBottom from '../Footer/LogoBottom.js';

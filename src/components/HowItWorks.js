@@ -1,4 +1,3 @@
-import React from 'react';
 import '../styles/HowItWorks.css';
 
 const HowItWorks = () => {

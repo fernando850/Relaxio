@@ -1,7 +1,7 @@
-import React from 'react';
 import FooterButtons from '../../Footer/FooterButtons';
 import LogoBottom from '../../Footer/LogoBottom';
 import Navbar from '../../Navbar';
+
 
 const ReturnPolicy = () => {
 

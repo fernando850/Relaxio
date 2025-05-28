@@ -1,12 +1,10 @@
-import React from 'react';
-
 const CallSupport = () => {
   return (
     <div className="call-support">
       <h2>Call us</h2>
       <p>
         Please note: For faster assistance, please use the{' '}
-        <a href="#">chat</a> or <a href="#">SMS</a> method of contact
+        <a href="javascript:void(0)">chat</a> or <a href="#">SMS</a> method of contact
       </p>
 
       <h3>Support</h3>

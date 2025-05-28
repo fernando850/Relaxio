@@ -1,6 +1,4 @@
 // FooterBottom.js
-import React from 'react';
-
 
 const FooterBottom = () => {
   return (
@@ -14,13 +12,13 @@ const FooterBottom = () => {
         you and Relaxio.
       </p>
       <div className="footer-a">
-        <a href="#">Terms of Services</a>
+        <a href="javascript:void(0)">Terms of Services</a>
         <p>|</p>
-        <a href="#">Privacy & Security</a>
+        <a href="javascript:void(0)">Privacy & Security</a>
         <p>|</p>
-        <a href="#">Accessibility Policy</a>
+        <a href="javascript:void(0)">Accessibility Policy</a>
         <p>|</p>
-        <a href="#">Site Map</a>
+        <a href="javascript:void(0)">Site Map</a>
       </div>
     </div>
   );

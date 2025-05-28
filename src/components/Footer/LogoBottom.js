@@ -1,4 +1,3 @@
-import React from 'react';
 import '../../styles/LogoBottom.css'; 
 
 const LogoBottom = () => {

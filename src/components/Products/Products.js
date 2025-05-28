@@ -1,6 +1,5 @@
 
 // ./components/Products/Products.js
-import React from 'react';
 import '../Navbar.js';
 import '../Features.js';
 import '../Footer/Footer.js';

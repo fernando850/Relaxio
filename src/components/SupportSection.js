@@ -1,6 +1,4 @@
-import React from 'react';
 import '../styles/SupportSection.css';
-import { Link } from 'react-router-dom';
 
 const SupportSection = () => {
     return (

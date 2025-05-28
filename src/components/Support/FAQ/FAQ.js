@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
 import Navbar from '../../Navbar';
 import '../../../styles/Faq.css'; 
 import FooterButtons from '../../Footer/FooterButtons';
 import LogoBottom from '../../Footer/LogoBottom';
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
 const faqData = [
   {
     question: 'When will my order be shipped?',
