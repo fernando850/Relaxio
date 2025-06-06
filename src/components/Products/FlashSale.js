@@ -23,7 +23,7 @@ const FlashSale = () => {
         <p className="validity-note">Discount valid for the next 24 hours only</p>
         
         <div className="down-arrow-svg">
-        <img src="Images/double-down.png" />
+        <img src="Images/double-down.png" alt="Scroll down indicator" />
 
         </div>
 

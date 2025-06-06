@@ -1,5 +1,3 @@
-// FooterBottom.js
-
 const FooterBottom = () => {
   return (
     <div className="footer-bottom">
@@ -12,16 +10,17 @@ const FooterBottom = () => {
         you and Relaxio.
       </p>
       <div className="footer-a">
-        <a href="javascript:void(0)">Terms of Services</a>
+        <a href="/support/return-policy">Terms of Services</a>
         <p>|</p>
-        <a href="javascript:void(0)">Privacy & Security</a>
+        <a href="/support">Privacy & Security</a>
         <p>|</p>
-        <a href="javascript:void(0)">Accessibility Policy</a>
+        <a href="/support/faq">Accessibility Policy</a>
         <p>|</p>
-        <a href="javascript:void(0)">Site Map</a>
+        <a href="/support">Site Map</a>
       </div>
     </div>
   );
 };
 
 export default FooterBottom;
+
